@@ -14,6 +14,8 @@ server.listen(20)
 client_list = []
 
 def client_thread(connection, addr):
+
+    connection.send("Bem-vindo ao chat!")
     while True:
         message = connection.recv(2048)
 
@@ -22,8 +24,17 @@ def client_thread(connection, addr):
             message_to_client = f"<{addr[0]}> {message}"
             broadcast(message_to_client, connection)
 
-def broadcast():
-    pass
+
+def broadcast(message, connection): 
+    for clients in client_list: 
+        if clients!=connection: 
+            try: 
+                clients.send(message) 
+            except: 
+                clients.close() 
+  
+                # if the link is broken, we remove the client 
+                remove(clients) 
 
 while True:
     connection, addr = server.accept()
