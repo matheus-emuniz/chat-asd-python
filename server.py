@@ -30,7 +30,7 @@ def broadcast(message, connection):
         if clients!=connection: 
             try: 
                 clients.send(message) 
-            except: 
+            except:
                 clients.close() 
   
                 # if the link is broken, we remove the client 
