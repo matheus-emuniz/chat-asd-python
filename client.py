@@ -13,7 +13,7 @@ nickname = input("Digite seu nickname: ")
 if len(nickname) > 0:
     server.connect((IP, PORT))
 
-print("COMANDOS:\n MSG: -> Enviar mensagem \n PRIVATE:<nick> -> Enviar mensagem privada \n NICK:<novo-nick> -> Trocar de nickame \n SNDFILE:<nick>:<nome_arquivo> -> Envia arquivo \n RECFILE:<nick>:<ip>:<port>:<nome_arquivo> -> Recebe arquivo`)
+print("COMANDOS:\n MSG: -> Enviar mensagem \n PRIVATE:<nick> -> Enviar mensagem privada \n NICK:<novo-nick> -> Trocar de nickame \n SNDFILE:<nick>:<nome_arquivo> -> Envia arquivo \n RECFILE:<nick>:<ip>:<port>:<nome_arquivo> -> Recebe arquivo")
 
 while True:
     for sock in [sys.stdin, server]:
@@ -45,7 +45,7 @@ while True:
             print(f"Seu novo nickname é: {message}")
         elif command == "SNDFILE":
             pass
-        elif command = "RECFILE":
+        elif command == "RECFILE":
             pass
         else:
             print("Comando inexistente")
