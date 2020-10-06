@@ -58,7 +58,7 @@ cd chat-asd-python
 9. Para mudar de nick, basta digitar `NICK: <novo nick>`, caso o nome de usuário ja esteja em uso você será avisado;
 10. O envio de ficheiros digite `SNDFILE: <nick1>: <nome do arquivo>`;
 11. Para receber o arquivo digite `RECFILE: <nick2>:<ip>:<porta>:<nome do arquivo>`;
-12. Para desconectar do servidor digite `DISCNN` ou use o comando `Ctrl+C /Ctrl+PauseBreak`.
+12. Para desconectar do servidor digite `EXIT` ou use o comando `Ctrl+C /Ctrl+PauseBreak`.
 
 -------------------------
 Detalhes Tecnicos
