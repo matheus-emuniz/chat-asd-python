@@ -10,7 +10,7 @@ PORT = 8080
 
 server.connect((IP, PORT))
 
-print("COMANDOS:\n MSG: -> Enviar mensagem \n PRIVATE:<nick> -> Enviar mensagem privada \n NICK:<novo-nick> -> Trocar de nickame \n SNDFILE:<nick>:<nome_arquivo> -> Envia arquivo \n RECFILE:<nick>:<ip>:<port>:<nome_arquivo> -> Recebe arquivo")
+print("COMANDOS:\n MSG: -> Enviar mensagem \n PRIVATE:<nick> -> Enviar mensagem privada \n NICK:<novo-nick> -> Trocar de nickame \n SNDFILE:<nick>:<nome_arquivo> -> Envia arquivo \n RECFILE:<nick>:<ip>:<port>:<nome_arquivo> -> Recebe arquivo \n EXIT -> Fecha aplicação")
 
 while True:
     sockets_list = [sys.stdin, server]
