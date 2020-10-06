@@ -1,7 +1,7 @@
 # CHAT ASD PYTHON
 Esse programa foi feito para o estudo da Arquitetura de Sistemas Distribuídos do Curso de Ciências da Computação, para o estudo da interação entre servidores e máquinas.
 
-Um serviço chat em **Python**, **Socket**, **Pickle**. Os usurios podem trocar mensagens e arquivos entre sí. Uma conexão direta é feita entres os usuários com os dados fornecidos pelo servidor, o servidor guarda um registro das sessão de chat.
+Um serviço chat em **Python**. Os usurios podem trocar mensagens e arquivos entre sí. Uma conexão direta é feita entres os usuários com os dados fornecidos pelo servidor, o servidor guarda um registro das sessão de chat.
 
 ----------------------------------
 Informação dos Autores
@@ -32,7 +32,7 @@ Uma vez conectado o servidor pede a cada cliente seu nome de usuário, caso o no
 3. NICK - Trocar de nome de usuário
 4. SNDFILE - Enviar arquivo
 5. RECFILE - Receber arquivo
-6. DISCNN - Disconectar do servidor
+6. EXIT - Disconectar do servidor
 
 -----------------------------------------------------
 Compilação e Execução do programa
