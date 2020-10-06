@@ -47,8 +47,12 @@ cd chat-asd-python
 4. Agora abra um novo `terminal/bash` e execute o arquivo `client.py`;
 5. O servidor vai te perguntar seu nome de usuário (Caso seja um nome de usuário inválido terá de inserir um novo);
 6. Você vai ser indicado a escolher uma série de opções printadas na tela (Msg pública/Msg privada/Mudar nick/Enviar arquivo/Receber arquivo);
-7. O usuário ...
-8. ...
+7. O usuário digita `MSG: <texto>` para enviar uma mensagem global;
+8. Para enviar uma mensagem privada digite `PRIVATE: <texto>`;
+9. Para mudar de nick, basta digitar `NICK: <novo nick>`, caso o nome de usuário ja esteja em uso você será avisado;
+10. O envio de ficheiros digite `SNDFILE: <nick1>: <nome do arquivo>`;
+11. Para receber o arquivo digite `RECFILE: <nick2>:<ip>:<porta>:<nome do arquivo>`;
+12. Para desconectar do servidor digite `DISCNN`.
 
 -------------------------
 Detalhes Tecnicos
