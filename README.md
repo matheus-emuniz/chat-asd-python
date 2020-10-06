@@ -39,8 +39,8 @@ Compilação e Execução do programa
 -----------------------------------------------------
 1. Faça download do projeto pelo arquivo `.zip` do repositorio ou com `git clone`:
 ```
-...git clone https://github.com/matheus-emuniz/chat-asd-python
-...cd chat-asd-python
+git clone https://github.com/matheus-emuniz/chat-asd-python
+cd chat-asd-python
 ```
 2. Acesse a pasta clonada ou os arquivos extraidos da pagina nova;
 3. Abra seu `terminal/bash` e execute o arquivo `server.py`;
