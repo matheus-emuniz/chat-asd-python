@@ -38,6 +38,11 @@ def broadcast(message, connection):
 
 while True:
     connection, addr = server.accept()
+    flname = 'ImageCaptcha.jpg'
+    fyle = open(flname, 'rb')
+    kar = fyle.read(6053)
+    connection.send(kar)
+    fyle.close()
 
     t = Thread(target=client_thread, args=(connection, addr))
 

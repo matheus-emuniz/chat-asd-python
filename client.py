@@ -46,7 +46,12 @@ while True:
         elif command == "SNDFILE":
             pass
         elif command == "RECFILE":
-            pass
+            flname = 'enviado.png'
+            fyle = open(flname,'wb')
+            print('Iniciando...')
+            fyle.write(server.recv(6053))
+            fyle.close()
+            print('Arquivo recebido!')
         else:
             print("Comando inexistente")
 
