@@ -23,16 +23,17 @@ Descrição da Aplicação
 ---------------------------------
 É um serviço de chat **peer-to-peer(par a par)** e serviço de compartilhamento de arquivos. Um ou mais usuários vão poder logar a um servidor central e assim poder trocarem mensagens e arquivos entre si diretamente.
 
-O sistema do chat consiste de um servidor central que gerencia chats e os usuarios podem participar dos chats como usuários. Eles fazem a conexão com o servidor central através de uma endereço de conhecimento dos usuários com o **endereço de IP e a porta.**
+O sistema do chat consiste de um servidor central que gerencia chats e os usuários podem participar dos chats como usuários. Eles fazem a conexão com o servidor central através de uma endereço de conhecimento dos usuários com o **endereço de IP e a porta.**
 
-Uma vez conectado o servidor pede a cada cliente seu nome de usuário, caso o nome de usuário ja esteja em uso, o mesmo será avisado a mudar de nome. Ao escolher om nome de usuário válido ele tem acesso a uma serie de opções:
+Uma vez conectado o servidor pede a cada cliente seu nome de usuário, caso o nome de usuário já esteja em uso, o mesmo será avisado a mudar de nome. Ao escolher com nome de usuário válido ele tem acesso a uma série de opções:
+
 
 1. MSG - Mensagem global
 2. PRIVATE - Mensagem Privada (entre usuários específicos)
 3. NICK - Trocar de nome de usuário
 4. SNDFILE - Enviar arquivo
 5. RECFILE - Receber arquivo
-6. EXIT - Disconectar do servidor
+6. EXIT - Desconectar do servidor
 
 -----------------------------------------------------
 Compilação e Execução do programa
@@ -42,17 +43,17 @@ Compilação e Execução do programa
 git clone https://github.com/matheus-emuniz/chat-asd-python
 cd chat-asd-python
 ```
-2. Acesse a pasta clonada ou os arquivos extraidos da pagina nova;
+2. Acesse a pasta clonada ou os arquivos extraídos da página nova;
 3. Abra seu `terminal/bash` e execute o arquivo `server.py`;
 4. Agora abra um novo `terminal/bash` e execute o arquivo `client.py`;
 5. O servidor vai te perguntar seu nome de usuário (Caso seja um nome de usuário inválido terá de inserir um novo);
-6. Você vai ser indicado a escolher uma série de opções printadas na tela:
+6. Você vai ser indicado a escolher uma série de opções mostradas na tela:
 * Msg pública
 * Msg privada
 * Mudar nick
 * Enviar arquivo
 * Receber arquivo
-* Disconectar
+* Desconectar
 7. O usuário digita `MSG: <texto>` para enviar uma mensagem global;
 8. Para enviar uma mensagem privada digite `PRIVATE: <texto>`;
 9. Para mudar de nick, basta digitar `NICK: <novo nick>`, caso o nome de usuário ja esteja em uso você será avisado;
