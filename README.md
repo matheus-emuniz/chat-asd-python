@@ -6,17 +6,17 @@ Um serviço chat em `Python`, `Socket`, `Pickle`. Os usuarios podem trocar mensa
 ----------------------------------
 Informação dos Autores
 ----------------------------------
-Nome: Angelo Soares Dorfey
+Nome: Angelo Soares Dorfey\
 E-mail: usbangelo@sempreceub.com
 
-Nome: Arthur Correa
+Nome: Arthur Correa\
 E-mail: arthur.pcorrea@sempreceub.com
 
-Nome: Guilherme Santana
+Nome: Guilherme Santana\
 E-mail: guilherme.santana@sempreceub.com
 
-Nome: Matheus Muniz
-E-mail: 
+Nome: Matheus Muniz\
+E-mail: matheus.emuniz.dev@gmail.com
 
 ---------------------------------
 Descrição da Aplicação
@@ -32,6 +32,7 @@ Uma vez conectado o servidor pede a cada cliente seu nome de usuário, caso o no
 3. Trocar de nome de usuário
 4. Enviar arquivo
 5. Receber arquivo
+6. Disconectar do servidor
 
 -----------------------------------------------------
 Compilação e Execução do programa
@@ -39,18 +40,18 @@ Compilação e Execução do programa
 1. Faça download do projeto pelo arquivo `zip` do repositorio ou com `git clone`:
 ```
 git clone https://github.com/matheus-emuniz/chat-asd-python
-cd electron-desktop-chat
+cd chat-asd-python
 ```
 2. Acesse a pasta clonada ou os arquivos extraidos da pagina nova;
 3. Abra seu `terminal/bash` e execute o arquivo `server.py`;
 4. Agora abra um novo `terminal/bash` e execute o arquivo `client.py`;
 5. O servidor vai te perguntar seu nome de usuário (Caso seja um nome de usuário inválido terá de inserir um novo);
 6. Você vai ser indicado a escolher uma série de opções printadas na tela (Msg pública/Msg privada/Mudar nick/Enviar arquivo/Receber arquivo);
-7. O usuário
-8. 
+7. O usuário ...
+8. ...
 
 -------------------------
 Detalhes Tecnicos
 --------------------------
 1. O programa foi feito para enviar '.png' e '.jpg'
-2. 
+2. ...
