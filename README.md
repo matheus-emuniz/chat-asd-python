@@ -54,6 +54,4 @@ cd chat-asd-python
 Detalhes Tecnicos
 --------------------------
 1. O programa foi feito para enviar `.png`, `.jpg`, e `.txt`. Ele pode ser modificado para ter suporte a mais tipos de arquivos.
-2. ...
-
-git commit -m "Modificações no arquivo readme.md / Incremento de texto "
+2. Já que o programa usa a função select.select, o programa so vai rodar em sistemas Linux/Unix.
