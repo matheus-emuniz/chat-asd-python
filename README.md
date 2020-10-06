@@ -47,11 +47,11 @@ cd chat-asd-python
 4. Agora abra um novo `terminal/bash` e execute o arquivo `client.py`;
 5. O servidor vai te perguntar seu nome de usuário (Caso seja um nome de usuário inválido terá de inserir um novo);
 6. Você vai ser indicado a escolher uma série de opções printadas na tela:
-* Msg pública;\
-* Msg privada;\
-* Mudar nick;\
-* Enviar arquivo;\
-* Receber arquivo;\
+* Msg pública;
+* Msg privada;
+* Mudar nick;
+* Enviar arquivo;
+* Receber arquivo;
 * Disconectar.
 7. O usuário digita `MSG: <texto>` para enviar uma mensagem global;
 8. Para enviar uma mensagem privada digite `PRIVATE: <texto>`;
